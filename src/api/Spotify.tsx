@@ -5,8 +5,8 @@ import Gravy from '../assets/images/gravy.jpg'
 const AltSpotify = () => {
 
 let playSong;
-const clientId = "99707647c8c34b5984cca216921a2f53";
-const clientSecret = "112abdfe335d46f4ae20d3b2efccd880";
+const clientId = "";
+const clientSecret = "";
 
 const _getToken = async () => {
     const result = await fetch(`https://accounts.spotify.com/api/token`, {
